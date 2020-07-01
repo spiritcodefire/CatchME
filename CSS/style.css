@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+.catchme{
+    background-color: #e8ffa7;
+    height: 60px;
+    border: 4px solid black;
+    width: 1140px;
+    margin: auto;
+}
+
+/*.catchme p{
+    color: #7321cb;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4px;
+}*/
+
+#spanstart{
+    display: block;
+    color: #7321cb;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4px;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 22px;
+}
+
+.t1140{
+    width: 1140px;
+    margin: auto;
+}
+
+.boxblack {
+    float: left;
+    width: 80%;
+    background-color: black;
+    height: 500px;
+    /*position: absolute;*/
+}
+
+.boxblue {
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: #aefae0;
+}
+
+.boxblue > div{
+    background-color: #edf8fc;
+    margin: 1px 15px 1px 15px;
+    text-align: left;
+    color: #115f23;
+    font-weight: bold;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 20px;
+    height: 0px;
+}
+
+.clickme {
+    background-color: #00fcf9;
+    width: 103px;
+    height: 29px;
+    text-align: center;
+    position: relative;
+    animation: spin 0s infinite linear;
+}
+
+.clickmestatique {
+    background-color: #00fcf9;
+    width: 103px;
+    height: 29px;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+
+#HG0child{
+    background-color: #ffffff;
+    color: black;
+    width: 40px;
+    height: 20px;
+}
+
+.date{
+    display: none;
+}
+
+@keyframes spin {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(359deg);
+    }
+  }
